@@ -22,7 +22,9 @@
   @media only screen and (max-width: 800px) {
     grid-column: 1 / -1;
   }
-
+  @media only screen and (max-width: 600px) {
+    padding: 5rem;
+  }
   button {
     justify-self: start;
     align-self: flex-start;

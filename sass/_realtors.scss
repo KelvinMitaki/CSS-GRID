@@ -18,7 +18,11 @@
     row-gap: 5vh;
     align-items: center;
     @media only screen and (max-width: 800px) {
-      grid-template-columns: min-content max-content min-content max-content min-content max-content;
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: min-content max-content;
     }
   }
 
